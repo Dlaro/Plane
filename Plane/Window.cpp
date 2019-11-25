@@ -8,7 +8,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	LONGLONG Time=0;
 	Core core(Time) ;
 	ChangeWindowMode(1);
-	SetBackgroundColor(128, 128, 128);
+	SetBackgroundColor(0, 128, 128);
 	// 画面モードの設定
 	SetGraphMode(640, 480, 16);
 	// ＤＸライブラリ初期化処理

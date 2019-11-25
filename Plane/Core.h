@@ -24,5 +24,9 @@ private:
 	int Input;
 	Map map;
 	Player player;
+	int playerMHandle;
+	int mapMHandle;
+
+	VECTOR	SlideVec;
 };
 
